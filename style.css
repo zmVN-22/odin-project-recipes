@@ -49,6 +49,15 @@ body {
   font-weight: bold;
 }
 
+.recipe {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.recipe:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .footer {
   padding: 20px;
   text-align: center;
